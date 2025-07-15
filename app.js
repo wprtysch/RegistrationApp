@@ -10,10 +10,15 @@ const app = express();
 
 // Database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'RP738964$',
-    database: 'C237_usersdb'
+    //host: 'localhost',
+    //user: 'root',
+    //password: 'RP738964$',
+    //database: 'C237_usersdb'
+    host:"yu384z.h.filess.io",
+    port: 3307,
+    user:"C237database_hatlivelow",
+    password:"4873a0eacc2d369c7fa1616a83bf9f7a1df4e564",
+    database:"C237database_hatlivelow"
 });
 
 db.connect((err) => {
